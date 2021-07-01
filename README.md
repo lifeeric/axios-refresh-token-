@@ -18,7 +18,7 @@ axios.interceptors.response.use((response) => {
 
     return response;
 
-});
+}, /** You may add here callback to catch 401 error */);
 
 
 const refreshTokenFunction = (error) => {
